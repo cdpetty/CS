@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(42,42,42);
+}
+.nav-bar{
+    height: 40px;
+    width: 510px;
+    margin: 84px auto 30px;
+    font-family: Heiti SC;
+    text-align: center;
+}
+
+.cost{
+    position: absolute;
+    background-color: blue;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 40px;
+    width: 166px;
+}
+
+.weight{
+    position: absolute;
+    background-color: blue;
+    height: 40px;
+    width: 166px;
+    margin-left: 168px;
+}
+
+.speed{
+    position: absolute;
+    background-color: blue;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 40px;
+    width: 166px;
+    margin-left: 336px;
+}
+
+.nav-text{
+    font-size:37px;
+}
+
+.top-wrapper{
+    height: 242px;
+    width: 100%;
+}
+
+.bar-divide{
+    width: 94%;
+    height: 2px;
+    margin: 20px auto;
+    background-color: blue;
+}
+
+.bottom-wrapper{
+    height: 242px;
+    width: 100%;
+}
+
+.number-wrapper{
+    height: 100%;
+    width: 80%;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 19px;
+    box-sizing: border-box;
+}
+
+.unit-container{
+    font-family: Heiti SC;
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    text-decoration: underline;
+    left: 91%;
+}
+
+#bottom{
+    top:624px;
+}
+
+#top{
+    top: 339px;
+}
+
+.in-out-container{
+    height: 100%;
+    width: 100%;
+    font-size:228px;
+    color:white;
+    font-family:Heiti SC;
+}
+
+.type-indicator{
+    height:100%;
+    width:2px;
+    background-color:white;
+    float:right;
+    display:none;
+}
+.number{
+    display:inline;
+}

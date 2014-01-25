@@ -1,0 +1,26 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+        script(src='/javascripts/jquery.min.js')
+        script(src='/javascripts/client.js')
+        .nav-bar
+            .cost 
+                span.nav-text Cost
+            .weight
+                span.nav-text Weight
+            .speed
+                span.nav-text Speed
+        .conversion-container
+            .top-wrapper
+                .number-wrapper
+                    .in-out-container#top-in-out
+                        .type-indicator
+                .unit-container#top km
+            .bar-divide
+            .bottom-wrapper
+                .number-wrapper
+                    .in-out-container#bottom-in-out
+                .unit-container#bottom m
