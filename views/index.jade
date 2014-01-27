@@ -6,21 +6,26 @@ html
     body
         script(src='/javascripts/jquery.min.js')
         script(src='/javascripts/client.js')
+        .name-container
+            span.name #TGB
         .nav-bar
-            .cost 
-                span.nav-text Cost
-            .weight
-                span.nav-text Weight
             .speed
-                span.nav-text Speed
+                span Speed
+            .weight
+                span Weight
+            .cost
+                span Cost
         .conversion-container
             .top-wrapper
                 .number-wrapper
                     .in-out-container#top-in-out
-                        .type-indicator
-                .unit-container#top km
+                        input.number-input#top-input(type='text')
+                .unit-container#top
             .bar-divide
             .bottom-wrapper
                 .number-wrapper
                     .in-out-container#bottom-in-out
-                .unit-container#bottom m
+                        input.number-input#bottom-input(type='text')
+                .unit-container#bottom
+        .signoff-container
+            span.sign-off #TopGearBuddy
